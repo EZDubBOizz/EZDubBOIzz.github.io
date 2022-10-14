@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(140, 11, 11);
+    color: aliceblue;
+    text-align: center;
+    padding: 8px;
+}
+
+#section1 {
+    height: 600px;
+    width: 40%;
+    background-color: rgb(243, 227, 208);
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+#section2 {
+    width: 40%;
+    height: 600px;
+    background-color: rgb(243, 227, 208);
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+}
