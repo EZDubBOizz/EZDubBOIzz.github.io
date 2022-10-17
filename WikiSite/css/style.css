@@ -15,10 +15,23 @@ a:hover{
     padding: 0px;
 
 }
+
 #sidebar {
     float: right;
+    border: solid;
+    text-align: center;
+    padding: 10px;
+
     
 }
 ul {
     padding: 10px;
+}
+
+#yoshitag {
+    background-color: rgb(211, 214, 214);
+}
+
+#extrainfo {
+    background-color: rgb(211, 214, 214);
 }
