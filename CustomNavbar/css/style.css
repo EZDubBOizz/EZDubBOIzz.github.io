@@ -74,3 +74,21 @@ p {
         flex-direction: column;
     }
 }
+
+#img2 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px;
+}
+
+#img3 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px;
+}
+
+#img1 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px;
+}
+
+
+
