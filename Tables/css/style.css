@@ -28,8 +28,6 @@ tr:nth-child(odd) {
     background-color: rgb(218, 218, 218);
 }
 
-
-
 #rank {
     border-radius: 10px 0px 0px 0px;
 }
@@ -38,11 +36,8 @@ tr:nth-child(odd) {
     border-radius: 0px 10px 0px 0px;
 }
 
-tr:nth-child(5) {
-    border-bottom: solid 3px rgb(8, 138, 103);
-}
 tr:nth-child(4) {
-    border-bottom: solid 2px rgb(186, 186, 186) ;
+    border-bottom: solid 3px rgb(8, 138, 103);
 }
 tr:nth-child(3) {
     border-bottom: solid 2px rgb(186, 186, 186) ;
