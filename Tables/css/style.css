@@ -1,0 +1,59 @@
+
+table {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;  
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+table, th, td {
+    padding: 15px;
+    border-collapse: collapse;
+    width: 450px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(8, 138, 103);
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(218, 218, 218);
+}
+
+
+
+#rank {
+    border-radius: 10px 0px 0px 0px;
+}
+
+#team {
+    border-radius: 0px 10px 0px 0px;
+}
+
+tr:nth-child(5) {
+    border-bottom: solid 3px rgb(8, 138, 103);
+}
+tr:nth-child(4) {
+    border-bottom: solid 2px rgb(186, 186, 186) ;
+}
+tr:nth-child(3) {
+    border-bottom: solid 2px rgb(186, 186, 186) ;
+}
+tr:nth-child(2) {
+    border-bottom: solid 2px rgb(186, 186, 186) ;
+}
+
+tr:nth-child(3) {
+    color: rgb(8, 138, 103);
+    font-weight: 600;
+}
+
