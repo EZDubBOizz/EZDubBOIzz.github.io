@@ -39,6 +39,27 @@ input[type=submit] {
     
 }
 
+input[type=text]:valid {
+    border: 2px solid rgb(0, 255, 123);
+    border-radius: 5px;
+}
+
+input[type=password]:valid {
+    border: 2px solid rgb(0, 255, 123);
+    border-radius: 5px;
+}
+
+input[type=text]:invalid {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+input[type=password]:invalid {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+
+
 select {
     padding: 10px;
     display: inline-block;

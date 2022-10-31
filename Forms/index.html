@@ -25,13 +25,13 @@
                     </div>
                     <div id="firstpart">
                         <div>
-                          <input class="firstlast" type="text" name="firstname"    placeholder="Firstname" required>  
-                            <input class="firstlast" type="text" name="lastname" placeholder="Last name" required>
+                          <input class="firstlast" type="text" name="firstname"    placeholder="Firstname" required minlength="5" maxlength="5000">  
+                            <input class="firstlast" type="text" name="lastname" placeholder="Last name" required minlength="5" maxlength="5000">
                          </div>
                         <br>
-                         <input class="long" type="text" name="email" placeholder="Mobile number or email" required>
+                         <input class="long" type="text" name="email" placeholder="Mobile number or email" required minlength="5" maxlength="5000">
                          <br>
-                         <input class="long" type="password" name="password" id="pass" placeholder="New password" required>
+                         <input class="long" type="password" name="password" id="pass" placeholder="New password" required minlength="8" maxlength="15">
                     
                     <div id="dropdown">
                         <p>Birthday</p>
@@ -43,7 +43,7 @@
                      <select name="date" id="date">
                         <option value="28"> 28</option>
                         <option value="27"> 27</option>
-                        <option value="26"> 36</option>
+                        <option value="26"> 26</option>
                      </select>
                      <select name="year" id="year">
                         <option value="2022"> 2022</option>
