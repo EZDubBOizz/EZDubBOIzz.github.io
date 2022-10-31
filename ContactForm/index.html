@@ -20,7 +20,7 @@
         <form action="https://getform.io/f/32bbb6ad-9643-41e8-8eab-f5e795f85ee6" method="post">
           <br>
           <label for="help"><h5>What can we help you with</h5></label>
-          <select name="help" id="">
+          <select name="help" id="help" required>
             <option value="Select">Select what we can help you with</option>
             <option value="service">Customer Service</option>
             <option value="service">Customer Service</option>
@@ -28,16 +28,16 @@
           </select>
           <br>
           <label for="name"><h5>Name</h5></label>
-          <input type="text" name="name" id="name" required>
+          <input type="text" name="name" id="name" required minlength="3" maxlength="1000">
           <br>
           <label for="email"><h5>Email</h5></label>
-          <input type="email" name="email" id="name" required>
+          <input type="email" name="email" id="name" required minlength="8" maxlength="100">
           <br>
           <label for="phone"><h5>Phone number(optional)</h5></label>
-          <input type="text" name="pn" id="pn">
+          <input type="text" name="pn" id="pn" minlength="10" maxlength="10">
           <br>
           <label for="msg"><h5>Message</h5></label>
-          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Type here"></textarea>
+          <textarea name="msg" id="msg" cols="30" rows="10" minlength="10" maxlength="400" placeholder="Type here" required></textarea>
           <br>
           <input type="submit" value="Send">
         </form>

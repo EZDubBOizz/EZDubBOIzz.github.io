@@ -9,6 +9,36 @@ body {
     margin-top: 10%;
 }
 
+input[type=text]:invalid{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 0, 0);
+}
+input[type=text]:valid{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(47, 255, 0);
+}
+
+textarea:valid {
+    border: 1px solid rgb(47, 255, 0);
+}
+textarea:invalid {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+input[type=email]:invalid{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+input[type=email]:valid{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(47, 255, 0);
+}
+
 input[type=text]{
     padding: 5px;
     width: 97% ;
