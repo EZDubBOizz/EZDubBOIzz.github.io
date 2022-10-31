@@ -32,7 +32,7 @@ input[type=submit] {
     display: flex;
     border: none;
     justify-content: center;
-    background-color: rgb(69, 134, 4);
+    background-color: rgb(69, 134, 3);
     color: #ffffff;
     border-radius: 5px;
     margin-top: 10px;
