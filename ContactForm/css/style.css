@@ -1,0 +1,75 @@
+body {
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e8e8e8;
+}
+
+#formtitle {
+    text-align: center;
+    margin-top: 10%;
+}
+
+input[type=text]{
+    padding: 5px;
+    width: 97% ;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+input[type=email]{
+    padding: 5px;
+    width: 97% ;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+h1 {
+    font-size: 35px;
+
+}
+
+input[type=submit] {
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(121, 201, 255);
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    width: 98%;
+}
+
+select {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+select:invalid {
+    color: grey;
+}
+
+p {
+    font-size: 15px;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+#form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: rgb(49, 49, 49);
+    border:2px solid rgb(197, 197, 197) ;
+    margin-top: 10%;
+}
