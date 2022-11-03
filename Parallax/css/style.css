@@ -228,3 +228,8 @@ footer h4 {
   background-color: #c1cadb;
   margin-top: 10px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
