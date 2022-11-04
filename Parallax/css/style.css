@@ -223,13 +223,3 @@ footer h4 {
   border-radius: 10px;
   color: black;
 }
-
-.card {
-  background-color: #c1cadb;
-  margin-top: 10px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-}
