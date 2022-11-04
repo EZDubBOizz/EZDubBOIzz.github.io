@@ -223,3 +223,13 @@ footer h4 {
   border-radius: 10px;
   color: black;
 }
+
+a {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+a:hover {
+  color: cadetblue;
+}
