@@ -1,0 +1,54 @@
+#navlist {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#nav {
+    float: left;
+    clear: left;
+    width: 10%;
+    height: 2300px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#sidebar {
+    float: right;
+    border: solid;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(235, 235, 235);
+
+}
+ul {
+    padding: 10px;
+}
+
+#yoshitag {
+    background-color: rgb(195, 194, 194);
+}
+
+#extrainfo {
+    background-color: rgb(195, 194, 194);
+}
+
+#topic {
+    padding: 10px;
+    border: solid 1px rgb(182, 205, 248) ;
+    float: left;
+    width: 85%;
+}
+
+#contentbox {
+    border: solid;
+    width: 250px;
+    text-align: center;
+    height: 200px;
+    background-color: rgb(223, 223, 223);
+}

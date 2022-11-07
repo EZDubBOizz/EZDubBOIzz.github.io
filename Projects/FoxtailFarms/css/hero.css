@@ -1,0 +1,43 @@
+.site-hero {
+    height: 90vh;
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    color: #000;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+}
+
+.parallax {
+    background-color:#fff;
+    width: 100%;
+    border-top: solid 10px #e1a177;
+    border-bottom: solid 10px #e1a177;
+}
+.paragraph {
+    font-size: medium;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.h6 {
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+}
