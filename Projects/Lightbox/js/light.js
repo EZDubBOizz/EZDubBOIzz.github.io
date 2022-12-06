@@ -11,10 +11,19 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let coffeeImage = document.getElementById("coffeeimage1");
+let Image1 = document.getElementById("image1");
+let Image2 = document.getElementById("image2");
+let Image3 = document.getElementById("image3");
+let Image4 = document.getElementById("image4");
+let Image5 = document.getElementById("image5");
 
 
-coffeeImage.onclick = openLightbox;
+
+Image1.onclick = openLightbox;
+Image2.onclick = openLightbox;
+Image3.onclick = openLightbox;
+Image4.onclick = openLightbox;
+Image5.onclick = openLightbox;
 
 function closeLightbox() {
     lightboxContainer.classList.remove("display");
