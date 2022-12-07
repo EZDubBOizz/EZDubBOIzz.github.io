@@ -6,7 +6,7 @@
 #gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 900px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -19,14 +19,9 @@
   animation using CSS Transitions.
 */
 /* #gallery img {
-  height: 20%;
-  margin: 12px;
-  flex: 1 0 auto;
-  object-fit: cover;
   opacity: 0.8;
   transition: opacity 0.25s, transform 0.25s;
   width: 20%;
-  aspect-ratio: 3/2;
 } */
 
 /*
@@ -63,6 +58,9 @@
 }
 
 .column img {
+  opacity: 0.8;
+  transition: opacity 0.25s, transform 0.25s;
+  width: 20%;
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
