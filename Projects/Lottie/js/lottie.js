@@ -23,6 +23,7 @@ let monster =
             });
          
 
+            // monster emotes with event listeners
 animationMonster.addEventListener("click", function() {
     monster.playSegments([110, 220], 
         true);
@@ -36,6 +37,7 @@ animationMonster.addEventListener("mouseleave", function() {
         true);
 }) 
 
+// toggle to one side 
 animationToggle.addEventListener('click', function() {
     if( toggle_c == 0 ) {
       toggle.playSegments([1,35], true);
