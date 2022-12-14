@@ -174,10 +174,11 @@ nav {
   
   
 /* grid */
-.container {
-    max-width: 800px;
+.containerg {
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 20px;
+    padding-bottom: 250px;
 }
 .grid {
     display: flex;
@@ -191,4 +192,8 @@ nav {
     text-align: center;
 }
 
-grid
+.grid .cell img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
